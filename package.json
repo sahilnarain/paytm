@@ -1,0 +1,23 @@
+{
+  "name": "paytm",
+  "version": "1.0.0",
+  "description": "node package paytm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahilnarain/paytm.git"
+  },
+  "keywords": [
+    "node",
+    "paytm"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahilnarain/paytm/issues"
+  },
+  "homepage": "https://github.com/sahilnarain/paytm#readme"
+}
