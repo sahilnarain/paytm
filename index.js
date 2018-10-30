@@ -1,8 +1,9 @@
 const checksum = require('./project/model/checksum');
 
 module.exports = {
-  generateChecksumByString: checksum.genchecksumbystring,
   generateChecksum: checksum.genchecksum,
-  verifyChecksum: checksum.verifychecksumbystring,
+  generateChecksumByString: checksum.genchecksumbystring,
+  verifyChecksum: checksum.verifychecksum,
+  verifyChecksumByString: checksum.verifychecksumbystring,
   generateChecksumRefund: checksum.genchecksumforrefund
 };
