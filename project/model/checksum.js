@@ -38,8 +38,8 @@ function genchecksum(params, key, cb) {
     var sha256 = crypto.createHash('sha256').update(data + salt).digest('hex');
     var check_sum = sha256 + salt;
     var encrypted = crypt.encrypt(check_sum, key);
-    params.CHECKSUMHASH = encrypted;
-    cb(undefined, params);
+    // params.CHECKSUMHASH = encrypted;
+    cb(undefined, encrypted);
   });
 }
 
